@@ -29,6 +29,18 @@ void input() {  // procedure untuk input
     cout << "====================" << endl;   // output ke layar
     cout << "Masukkan Elemen Array" << endl;    // output ke layar
     cout << "====================" << endl;   // output ke layar
+    for (int i = 0; i < n; i++) {
+        cout << "Data ke-" << (i + 1) << ":";
+        cin >> a[i];
+
+
+void display(){
+    cout << endl;
+    cout << "===============================" << endl;
+    cout << "Elemen array yang telah tersusun" << endl;
+    cout << "===============================" << endl;
+
+
     for (int j = 0; j < n; j++) {   // looping dengan j dimulai dari 0 hingga n-1
         cout << a[j] << endl;    // output ke layar
     }
