@@ -37,21 +37,23 @@ void input() {  // Procedure untuk input
             }
             cout << endl;     // output baris kosong
         }
-void bubbleSortArray() {
-    for (int i = 1; i < n; i++) {
-        for (int j = 0; j < n - n i; j++) {   //
-             if (a[j] a[j+1]){  //
-                 int temp = a[j];  //
-                 a[j] = a[j + 1];  //
-                 a[j + 1] temp;    //
+
+void bubbleSortArray() {                        //Procedure untuk mengurutkan array dengan metode bubblesort
+    for (int i = 1; i < n; i++) {               // looping dengan i dimulai dari 1 hingga n-1
+        for (int j = 0; j < n - n i; j++) {   // looping dengan j dari 0 hingga n-1
+             if (a[j] a[j+1]){                 //Jika nilai pada a[j] lebih besar dari a[j+1]
+                 int temp = a[j];               // Simpan nilai a[j] ke variabel sementara temp
+                 a[j] = a[j + 1];            // Assign nilai a[j+1] ke a [j]
+                 a[j + 1] temp;              // Assign nilai temp ke a[j+1]
 
 
 
 
 
-int main()  {
-    input();    // Memanggil read()
-    bubbleSortArray();  // memanggil bubbleSortArray()
-    display();   // memanggil display
-    return 0;
-            
+
+                 int main() {
+                     input();                   // Memanggil read()
+                     bubbleSortArray();        // memanggil bubbleSortArray()
+                     display();               // memanggil display
+                     return 0;
+                 }
