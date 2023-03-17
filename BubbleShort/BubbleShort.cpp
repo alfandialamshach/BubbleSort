@@ -36,12 +36,27 @@ void input() {  // procedure untuk input
 
 void display(){
     cout << endl;
-    cout << "===============================" << endl;
-    cout << "Elemen array yang telah tersusun" << endl;
-    cout << "===============================" << endl;
+    cout << "===============================" << endl;   //output kelayar
+    cout << "Elemen array yang telah tersusun" << endl;   // output ke layar
+    cout << "===============================" << endl;  // output ke layar
 
 
     for (int j = 0; j < n; j++) {   // looping dengan j dimulai dari 0 hingga n-1
         cout << a[j] << endl;    // output ke layar
     }
     cout << endl;     // output baris kosong
+
+void bubbleSortArray() {
+    for (int i = 1; i < n; i++) {
+        for (int j = 0; j < n - n i; j++) {
+             if (a[j] a[j+1]){
+                 int temp = a[j];
+                 a[j] = a[j + 1];
+                 a[j + 1] temp; 
+
+
+
+
+
+
+            
