@@ -52,11 +52,15 @@ void bubbleSortArray() {
              if (a[j] a[j+1]){
                  int temp = a[j];
                  a[j] = a[j + 1];
-                 a[j + 1] temp; 
+                 a[j + 1] temp;    //
 
 
 
 
 
-
+int main()  {
+    input();    // Memanggil read()
+    bubbleSortArray();  // memanggil bubbleSortArray()
+    display();   // memanggil display
+    return 0;
             
